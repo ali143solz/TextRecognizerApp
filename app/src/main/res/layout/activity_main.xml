@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="350dp"
+       android:id="@+id/img"
+
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="20dp"
+        android:text="Detect"
+        android:textAllCaps="false"
+        android:id="@+id/btn"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btn"
+        android:layout_marginTop="20dp"
+        android:text="Capture"
+
+        android:textAllCaps="false"
+        android:id="@+id/btn1"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detected Text From Image is here"
+        android:id="@+id/text"
+        android:layout_below="@+id/btn"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:maxLines="4"
+         />
+
+</RelativeLayout>
